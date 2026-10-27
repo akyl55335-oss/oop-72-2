@@ -1,9 +1,9 @@
 # MageHero - mageHero
 # mage_hero
 class Hero:
-    # конструктор класса NameClass()
+    # конструктор класа NameClass()
     def __init__(self, name, lvl, hp):
-        # Атрибуты экземпляра|объекта класса
+        # Атрибуты экземпляра+|+объекта класса
         self.hero_name = name
         self.hero_lvl = lvl
         self.hero_hp = hp
@@ -11,7 +11,7 @@ class Hero:
     def action(self):
         print(f"{self.hero_name} base action")
 
-kirito = Hero("Kirito", 100, 1000)
+kirito = Hero("Kir1to", 100, 1000)
 asuna = Hero("Asuna", 101, 1001)
 my_int = 123
 my_str = "text"
