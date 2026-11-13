@@ -74,3 +74,16 @@ fix/
 
 main
 stage\dev
+
+
+source .venv/bin/activate     | Mac-Linux
+.venv\Scripts\activate        | powershell Winda
+source .venv/Scripts/activate        | git bash Winda
+
+python -m venv name_venv
+py -m venv name_venv
+python3 -m venv name_venv
+
+скачай сначала colorama
+
+pip install -r requirements.txt
