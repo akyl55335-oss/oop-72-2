@@ -83,3 +83,4 @@ urllib3==2.2.3
 vine==5.1.0
 yarl==1.18.3
 zope.interface==7.1.1
+faker

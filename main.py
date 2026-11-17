@@ -24,3 +24,20 @@ my_str = "text"
 # kirito.action()
 # asuna.action()
 
+# Эта библиотека нужна для генерации фейковых (тестовых) данных:
+# имён, адресов, email, телефонов и т.д. Она используется, когда нужно
+# быстро заполнить программу или базу данных примерами без ручного ввода.
+from faker import Faker
+
+# Создаём генератор данных с русской локализацией
+fake = Faker("ru_RU")
+
+print("Сгенерированные пользователи:\n")
+
+for i in range(1, 6):
+    print(f"Пользователь №{i}")
+    print("  Имя:     ", fake.name())
+    print("  Email:   ", fake.email())
+    print("  Телефон: ", fake.phone_number())
+    print("  Адрес:   ", fake.address())
+    print()
